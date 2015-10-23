@@ -3,7 +3,7 @@ package lin.hr;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class ProjectEuler_2 {
+public class Euler_2 {
 
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub

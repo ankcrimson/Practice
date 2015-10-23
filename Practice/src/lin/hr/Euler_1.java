@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ProjEuler_1 {
+public class Euler_1 {
 
 	public static void main(String[] args) throws Exception {
 	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));

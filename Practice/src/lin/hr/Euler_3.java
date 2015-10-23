@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProjectEuler_3 {
+public class Euler_3 {
 
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
