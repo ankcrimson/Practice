@@ -1,4 +1,4 @@
-package lin.hackerrank;
+package lin.hr;
 //with guidance from http://www.mathblog.dk/triangle-number-with-more-than-500-divisors/
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

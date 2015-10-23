@@ -1,4 +1,4 @@
-package lin.hackerrank;
+package lin.hr;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
