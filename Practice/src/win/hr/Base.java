@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class Euler_12 {
+public class Base {
 
 	 public static void main(String[] args) throws Exception {
 		 
