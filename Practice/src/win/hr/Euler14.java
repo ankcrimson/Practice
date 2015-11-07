@@ -1,4 +1,4 @@
-package lin.hr;
+package win.hr;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -19,8 +19,17 @@ public class Euler14 {
 		 for(int i=1;i<=t;i++)
 		 {
 			 int curr=Integer.parseInt(br.readLine());
-		
-			 
+			 int len=1;
+			 long tmp=curr;
+			 while(tmp!=1)
+			 {
+				 if(tmp%2==0)
+					 tmp/=2;
+				 else
+					 tmp=(tmp*3+1);
+				 len++;
+			 }
+			 System.out.println(len);	 
 		 }
 		 
 	}
