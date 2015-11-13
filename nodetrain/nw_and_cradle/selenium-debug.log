@@ -1,0 +1,47 @@
+16:32:34.790 INFO - Launching a standalone server
+Setting system property webdriver.chrome.driver to D:\Ankur_Data\jars\chromedriver.exe
+16:32:35.438 INFO - Java: Oracle Corporation 25.40-b25
+16:32:35.438 INFO - OS: Windows 7 6.1 x86
+16:32:35.457 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+16:32:35.719 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:32:35.721 INFO - Version Jetty/5.1.x
+16:32:35.723 INFO - Started HttpContext[/selenium-server,/selenium-server]
+16:32:36.207 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1223dd8
+16:32:36.207 INFO - Started HttpContext[/wd,/wd]
+16:32:36.207 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+16:32:36.207 INFO - Started HttpContext[/,/]
+16:32:36.215 INFO - Started SocketListener on 0.0.0.0:4444
+16:32:36.215 INFO - Started org.openqa.jetty.jetty.Server@133314b
+16:32:37.282 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Distributed, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+16:32:37.329 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Distributed, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3) on port 20701
+Only local connections are allowed.
+16:32:55.317 INFO - Executing: org.openqa.selenium.remote.server.handler.GetAllSessions@1463fb1)
+16:32:55.319 INFO - Done: org.openqa.selenium.remote.server.handler.GetAllSessions@1463fb1
+16:32:56.036 INFO - Executing: org.openqa.selenium.remote.server.handler.GetAllSessions@ddb7bf)
+16:32:56.036 INFO - Done: org.openqa.selenium.remote.server.handler.GetAllSessions@ddb7bf
+16:32:56.444 INFO - Executing: org.openqa.selenium.remote.server.handler.GetAllSessions@3199fb)
+16:32:56.444 INFO - Done: org.openqa.selenium.remote.server.handler.GetAllSessions@3199fb
+16:32:56.823 INFO - Executing: org.openqa.selenium.remote.server.handler.GetAllSessions@6992)
+16:32:56.823 INFO - Done: org.openqa.selenium.remote.server.handler.GetAllSessions@6992
+16:33:20.000 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Distributed, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+16:33:20.038 INFO - Executing: [get: http://www.google.com])
+16:33:27.823 INFO - Done: [get: http://www.google.com]
+16:33:27.867 INFO - Executing: [find elements: By.cssSelector: body])
+16:33:28.007 INFO - Done: [find elements: By.cssSelector: body]
+16:33:28.015 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (df02690e05ea9886493b944a63e18e3d)] -> css selector: body]])
+16:33:28.120 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (df02690e05ea9886493b944a63e18e3d)] -> css selector: body]]
+16:33:28.223 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+16:33:28.266 INFO - Done: [find element: By.cssSelector: input[type=text]]
+16:33:28.285 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (df02690e05ea9886493b944a63e18e3d)] -> css selector: input[type=text]], [o, g, g, y,  , a, n, d,  , t, h, e,  , c, o, c, k, r, o, a, c, h, e, s]])
+16:33:28.791 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (df02690e05ea9886493b944a63e18e3d)] -> css selector: input[type=text]], [o, g, g, y,  , a, n, d,  , t, h, e,  , c, o, c, k, r, o, a, c, h, e, s]]
+16:33:28.818 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+16:33:28.851 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+16:33:28.857 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (df02690e05ea9886493b944a63e18e3d)] -> css selector: button[name=btnG]]])
+16:33:29.071 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (df02690e05ea9886493b944a63e18e3d)] -> css selector: button[name=btnG]]]
+16:33:30.128 INFO - Executing: [find element: By.cssSelector: #main])
+16:33:30.391 INFO - Done: [find element: By.cssSelector: #main]
+16:33:30.407 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on XP (df02690e05ea9886493b944a63e18e3d)] -> css selector: #main]])
+16:33:31.470 INFO - Done: [get text: 3 [[ChromeDriver: chrome on XP (df02690e05ea9886493b944a63e18e3d)] -> css selector: #main]]
+16:33:31.496 INFO - Executing: [delete session: 4fb0d0db-0c09-4f7f-90bc-f86b020e2b3f])
+16:33:33.179 INFO - Done: [delete session: 4fb0d0db-0c09-4f7f-90bc-f86b020e2b3f]

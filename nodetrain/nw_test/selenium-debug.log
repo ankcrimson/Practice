@@ -1,0 +1,39 @@
+18:50:20.170 INFO - Launching a standalone server
+Setting system property webdriver.chrome.driver to D:\Ankur_Data\jars\chromedriver.exe
+18:50:20.817 INFO - Java: Oracle Corporation 25.40-b25
+18:50:20.818 INFO - OS: Windows 7 6.1 x86
+18:50:20.840 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+18:50:21.094 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+18:50:21.096 INFO - Version Jetty/5.1.x
+18:50:21.098 INFO - Started HttpContext[/selenium-server,/selenium-server]
+18:50:21.568 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1223dd8
+18:50:21.568 INFO - Started HttpContext[/wd,/wd]
+18:50:21.568 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+18:50:21.569 INFO - Started HttpContext[/,/]
+18:50:21.577 INFO - Started SocketListener on 0.0.0.0:4444
+18:50:21.577 INFO - Started org.openqa.jetty.jetty.Server@133314b
+18:50:22.103 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Distributed, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+18:50:22.142 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Distributed, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3) on port 16747
+Only local connections are allowed.
+18:50:26.966 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Distributed, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+18:50:26.996 INFO - Executing: [get: http://www.google.com])
+18:50:31.451 INFO - Done: [get: http://www.google.com]
+18:50:31.472 INFO - Executing: [find elements: By.cssSelector: body])
+18:50:31.535 INFO - Done: [find elements: By.cssSelector: body]
+18:50:31.544 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (cf871c6eed19fcdcbe2357a88354f1df)] -> css selector: body]])
+18:50:31.572 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (cf871c6eed19fcdcbe2357a88354f1df)] -> css selector: body]]
+18:50:31.596 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+18:50:31.630 INFO - Done: [find element: By.cssSelector: input[type=text]]
+18:50:31.641 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (cf871c6eed19fcdcbe2357a88354f1df)] -> css selector: input[type=text]], [o, g, g, y,  , a, n, d,  , t, h, e,  , c, o, c, k, r, o, a, c, h, e, s]])
+18:50:32.049 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (cf871c6eed19fcdcbe2357a88354f1df)] -> css selector: input[type=text]], [o, g, g, y,  , a, n, d,  , t, h, e,  , c, o, c, k, r, o, a, c, h, e, s]]
+18:50:32.063 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+18:50:32.101 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+18:50:32.109 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (cf871c6eed19fcdcbe2357a88354f1df)] -> css selector: button[name=btnG]]])
+18:50:32.271 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (cf871c6eed19fcdcbe2357a88354f1df)] -> css selector: button[name=btnG]]]
+18:50:33.304 INFO - Executing: [find element: By.cssSelector: #main])
+18:50:33.423 INFO - Done: [find element: By.cssSelector: #main]
+18:50:33.433 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on XP (cf871c6eed19fcdcbe2357a88354f1df)] -> css selector: #main]])
+18:50:34.468 INFO - Done: [get text: 3 [[ChromeDriver: chrome on XP (cf871c6eed19fcdcbe2357a88354f1df)] -> css selector: #main]]
+18:50:34.482 INFO - Executing: [delete session: b815b1b1-cffa-4868-a016-96933ea15a78])
+18:50:35.935 INFO - Done: [delete session: b815b1b1-cffa-4868-a016-96933ea15a78]
