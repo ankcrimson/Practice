@@ -33,6 +33,16 @@ public class Euler19 {
 		 int sd=Integer.parseInt(startDate[2]);
 		 int ed=Integer.parseInt(endDate[2]);
 		 
+		 if(sd>1)
+			 if(sm<12)
+				 sm++;
+			 else
+				 {
+				 sm=1;
+				 sy++;
+				 }
+		 
+		 
 		 long noda=0;
 		 long yt=1900;
 		 
@@ -58,7 +68,7 @@ public class Euler19 {
 		 while(yt<ey||yt==ey&&mt<=em)
 		 {
 			// System.out.println("mt:"+mt+"noda:"+noda);
-			 if(noda%7==6&&(yt<ey||yt==ey&&mt<=em))
+			 if((sy==yt&&sm<=mt||yt>sy)&&(ey==yt&&em>=mt||yt<ey)&&(noda%7==6))
 			 {
 			//	System.out.println(yt+" / "+mt);
 				 ans++;
@@ -110,6 +120,11 @@ public class Euler19 {
 		 Assert.assertEquals("171", solve("1901 1 1", "2000 12 31"));
 		 System.out.println("-----------------------");
 		 Assert.assertEquals("171", solve("9999999999992701 1 1", "9999999999992800 12 31"));
+		 System.out.println("-----------------------");
+		 Assert.assertEquals("0", solve("1900 5 1", "1900 6 1"));
+		 System.out.println("-----------------------");
+		 
+		 // Assert.assertEquals("0", solve("1900 4 2", "1900 4 15"));
 		 
 	 }
 }
