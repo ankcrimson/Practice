@@ -35,6 +35,13 @@ public class Euler19 {
 		 
 		 long noda=0;
 		 long yt=1900;
+		 
+		 long diff=sy-yt;
+		 diff/=400;
+		 diff*=400;
+		 yt+=diff;
+		 
+		 
 		 int ans=0;
 		 while(yt<sy)
 		 {
@@ -48,11 +55,12 @@ public class Euler19 {
 		 long tmp=noda;//days till 1 jan SY
 		 
 		 int mt=1;
-		 do
+		 while(yt<ey||yt==ey&&mt<=em)
 		 {
-			 if(noda%7==6)
+			// System.out.println("mt:"+mt+"noda:"+noda);
+			 if(noda%7==6&&(yt<ey||yt==ey&&mt<=em))
 			 {
-				// System.out.println(yt+" / "+mt);
+			//	System.out.println(yt+" / "+mt);
 				 ans++;
 			 }
 			 switch(mt)
@@ -68,7 +76,8 @@ public class Euler19 {
 			 default: noda+=30;mt++;
 			 }
 			 
-		 }while(yt<ey||yt==ey&&mt<em);
+		 }
+		 
 		 return ans+"";
 	}
 	
@@ -80,8 +89,6 @@ public class Euler19 {
 		 {
 			 String a=br.readLine();
 			 String b=br.readLine();
-			 
-			 
 			 System.out.println(solve(a, b));
 		 }
 		 
@@ -91,9 +98,18 @@ public class Euler19 {
 	 public void unitTests()
 	 {
 		 Assert.assertEquals("2", solve("1900 1 1", "1901 1 1"));
+		 System.out.println("-----------------------");
+		 Assert.assertEquals("1", solve("1900 4 1", "1900 4 1"));
+		 System.out.println("-----------------------");
 		 Assert.assertEquals("18", solve("1900 1 1", "1910 1 1"));
+		 System.out.println("-----------------------");
 		 Assert.assertEquals("35", solve("2000 1 1", "2020 1 1"));
-		 Assert.assertEquals("171", solve("50000000 1 1", "50001000 12 31"));
+		 System.out.println("-----------------------");
+		 Assert.assertEquals("2", solve("2015 2 1", "2015 3 1"));
+		 System.out.println("-----------------------");
+		 Assert.assertEquals("171", solve("1901 1 1", "2000 12 31"));
+		 System.out.println("-----------------------");
+		 Assert.assertEquals("171", solve("9999999999992701 1 1", "9999999999992800 12 31"));
 		 
 	 }
 }
