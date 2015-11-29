@@ -9,6 +9,12 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+/*
+LONG: 9223372036854775807 (19 chars)
+INTEGER: 2147483647 (10 chars)
+SHORT: 32767 (5 chars)
+BYTE: 127 (3 chars) 
+ */
 
 public class Base {
 
