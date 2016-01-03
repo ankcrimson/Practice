@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 import org.junit.Test;
 
-import com.sun.xml.internal.ws.developer.StreamingAttachmentFeature;
-
 import static junit.framework.Assert.assertEquals;
 
 public class Seven_TimeConversion {
