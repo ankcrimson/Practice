@@ -1,5 +1,7 @@
 package tmp;
 
+import java.util.Date;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -8,7 +10,8 @@ public class Test {
 		System.out.println("INTEGER: "+Integer.MAX_VALUE+" ("+(Integer.MAX_VALUE+"").length()+" chars)");
 		System.out.println("SHORT: "+Short.MAX_VALUE+" ("+(Short.MAX_VALUE+"").length()+" chars)");
 		System.out.println("BYTE: "+Byte.MAX_VALUE+" ("+(Byte.MAX_VALUE+"").length()+" chars)");
-		
+		//System.out.println("".equals(null));
+	//	System.out.println((new Date()).getTime());
 	}
 
 }
