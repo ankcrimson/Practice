@@ -13,7 +13,7 @@ public class GridSearch {
 
   public static boolean searchV(String[] master, int x1, int y1, String[] sub) {
     for(int i=y1,j=0;j<sub.length;i++,j++) {
-      if(master[i].indexOf(sub[j],x1-1)!=x1)
+      if(master[i].indexOf(sub[j],x1)!=x1)
         return false;
     }
     return true;
@@ -56,7 +56,7 @@ public class GridSearch {
   
   @Test
   public void test() {
-    String[] mainArr={"1","1"};
+    String[] mainArr={"01","11","00"};
     String[] subArr={"1","1"};
     Assert.assertTrue(findSubArr(mainArr, 0, 0, subArr, 0));
   }
