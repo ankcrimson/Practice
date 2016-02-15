@@ -3,6 +3,9 @@ package hr.algos;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 /*
  * https://www.hackerrank.com/challenges/the-grid-search
  */
@@ -19,7 +22,7 @@ public class GridSearch {
   public static boolean findSubArr(String[] master, int x1, int y1, String[] sub, int y2) {
    
    int ind = -1;
-   for(int i=0;i<master.length-sub.length;i++) {
+   for(int i=0;i<=master.length-sub.length;i++) {
      while((ind=master[i].indexOf(sub[0],ind+1))!=-1) {
        if(searchV(master, ind, i, sub)) return true;
      }  
@@ -49,6 +52,13 @@ public class GridSearch {
         System.out.println(ans);
       }
     } catch(Exception ex) {ex.printStackTrace();}
+  }
+  
+  @Test
+  public void test() {
+    String[] mainArr={"1","1"};
+    String[] subArr={"1","1"};
+    Assert.assertTrue(findSubArr(mainArr, 0, 0, subArr, 0));
   }
 
 }
