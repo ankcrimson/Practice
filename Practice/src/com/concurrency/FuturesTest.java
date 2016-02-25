@@ -19,10 +19,6 @@ class Factorial implements Runnable {
   @Override
   public void run() {
     System.out.println("Factorial of " + x + " is " + factorial(x));
-    try {
-      Thread.sleep(2000);
-    } catch (Exception ex) {
-    }
   }
 
   public BigInteger factorial(long num) {
@@ -48,7 +44,7 @@ public class FuturesTest {
       while ((num = br.readLine()) != null) {
         if (num.length() == 0)
           break;
-        int n = Integer.parseInt(num);
+        long n = Long.parseLong(num);
         Factorial fact = new Factorial(n);
         futuresTest.scheduledThreadPoolExecutor.submit(fact);
       }
