@@ -1,4 +1,4 @@
-package com.lambdas;
+package com.concurrency;
 
 import java.io.BufferedReader;
 import java.io.IOException;
