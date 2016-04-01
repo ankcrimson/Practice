@@ -16,6 +16,11 @@ public class LambdaThreads {
 
     Thread t = new Thread(task);
     t.start();
+
+    Thread t2 = new Thread(() -> {
+      System.out.println("this is another thread");
+    });
+    t2.start();
   }
 
 }
